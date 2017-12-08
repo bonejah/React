@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import UserRepos from './UserRepos';
 
 const UserInfo = ({user, repos }) => {
+  console.log(user)
+  console.log(repos)
   var userInfo = user ?
     (
       <div className="row">
