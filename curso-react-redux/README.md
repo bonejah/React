@@ -2,3 +2,13 @@
 
 https://github.com/cod3rcursos/curso-react-redux
 http://files.cod3r.com.br/apostila-react-redux.pdf
+
+Download:
+MongoDB
+NodeJs
+http://cmder.net/
+https://desktop.github.com/
+Visual Code
+Git
+
+
