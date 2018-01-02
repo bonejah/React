@@ -9,3 +9,7 @@
 * Comando para instalar o React: npm i --save-dev react@15.4.2 react-dom@15.4.2
 * Comando para instalar o preset react: npm i --save-dev babel-preset-react@6.22.0
 * Comando para instalar o css: npm i --save-dev extract-text-webpack-plugin@1.0.1 style-loader@0.13.1 css-loader@0.26.1
+* Comando para instalar o parse JSON: npm i --save-dev body-parse@1.15.2
+* Comando para iniciar o mongodb: mongod
+
+* NodeRestful[https://github.com/baugarten/node-restful]
