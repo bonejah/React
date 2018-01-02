@@ -13,5 +13,6 @@
 * Comando para instalar o parse JSON: npm i --save-dev body-parse@1.15.2
 * Comando para instalar o pm2 global: npm i pm2 -g
 * Comando para instalar o bootstrap: npm i --save-dev bootstrap@3.3.7 font-awesome@4.7.0
+* Comando para instalar o react-redux: npm i --save-dev react-redux@5.0.2 redux@3.6.0
 
 * NodeRestful[https://github.com/baugarten/node-restful]
