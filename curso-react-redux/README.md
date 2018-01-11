@@ -5,24 +5,42 @@
 * Comando para rodar o servidor: npm run dev
 * Comando para iniciar o mongodb: mongod
 
-# Dependências do projeto todo-app
-* Comando para instalar o webpack: npm i --save-dev webpack@1.14.0 webpack-dev-server@1.16.2
-* Comando para instalar o babel: npm i --save-dev babel-core@6.22.1 babel-loader@6.2.10 babel-plugin-react-html-attrs@2.0.0 babel-plugin-transform-object-rest-spread@6.22.0 babel-preset-react@6.22.0 babel-preset-es2015@6.22.0 
-* Comando para instalar o React: npm i --save-dev react@15.4.2 react-dom@15.4.2 react-router@3.0.2 axios@0.15.3
-* Comando para instalar o css: npm i --save-dev extract-text-webpack-plugin@1.0.1 style-loader@0.13.1 css-loader@0.26.1 file-loader@0.9.0
-* Comando para instalar o parse JSON: npm i --save-dev body-parse@1.15.2
-* Comando para instalar o pm2 global: npm i pm2 -g
-* Comando para instalar o bootstrap: npm i --save-dev bootstrap@3.3.7 font-awesome@4.7.0
-* Comando para instalar o react-redux: npm i --save-dev react-redux@5.0.2 redux@3.6.0
-* Comando para instalar o redux-promise: npm i --save-dev redux-promise@0.5.3
-* Comando para instalar o redux-multi: npm i --save-dev redux-multi@0.1.12
-* Comando para instalar o redux-thunk: npm i --save-dev redux-thunk@2.2.0
+# Dependências do projeto todo-app (BACKEND/FRONTEND)
+```
+npm i --save-dev webpack@1.14.0 webpack-dev-server@1.16.2
 
-# Dependências do projeto my-money-app
-* npm i --save express@4.14.0 mongoose@4.13.7 body-parser@1.15.2 lodash@4.17.4 mongoose-paginate@5.0.3 express-query-int@1.0.1 node-restful@0.2.5 pm2@2.1.5
-* npm i --save-dev nodemon@1.11.0
+npm i --save-dev babel-core@6.22.1 babel-loader@6.2.10 babel-plugin-react-html-attrs@2.0.0 babel-plugin-transform-object-rest-spread@6.22.0 babel-preset-react@6.22.0 babel-preset-es2015@6.22.0 
+
+npm i --save-dev react@15.4.2 react-dom@15.4.2 react-router@3.0.2 axios@0.15.3
+npm i --save-dev extract-text-webpack-plugin@1.0.1 style-loader@0.13.1 css-loader@0.26.1 file-loader@0.9.0
+npm i --save-dev body-parse@1.15.2
+npm i pm2 -g
+npm i --save-dev bootstrap@3.3.7 font-awesome@4.7.0
+npm i --save-dev react-redux@5.0.2 redux@3.6.0
+npm i --save-dev redux-promise@0.5.3
+npm i --save-dev redux-multi@0.1.12
+npm i --save-dev redux-thunk@2.2.0
+```
+
+# Dependências do projeto my-money-app (BACKEND)
+```
+npm i --save express@4.14.0 mongoose@4.13.7 body-parser@1.15.2 lodash@4.17.4 mongoose-paginate@5.0.3 express-query-int@1.0.1 node-restful@0.2.5 pm2@2.1.5
+npm i --save-dev nodemon@1.11.0
+```
 
 * localhost:3003/api/billingCycles?skip=0&limit=1
+
+# Dependências do projeto my-money-app (FRONTEND)
+* O template AdminLTE sofreu uma atualização pequena, mas que gerou impacto no nosso projeto, por isso é importante que as mesmas versões exibidas no vídeo sejam usadas durante o curso. Para que isso ocorra no final de cada comando a flag -E deve ser aplicada. A sequencia de comandos da próxima aula ficaram assim:
+
+```
+$ npm init -y
+$ npm i --save-dev webpack@1.14.0 webpack-dev-server@1.16.2 -E
+$ npm i --save-dev babel-core@6.22.1 babel-loader@6.2.10 babel-plugin-react-html-attrs@2.0.0 babel-plugin-transform-object-rest-spread@6.22.0 babel-preset-es2015@6.22.0 babel-preset-react@6.22.0 -E
+$ npm i --save-dev extract-text-webpack-plugin@1.0.1 css-loader@0.26.1 style-loader@0.13.1 file-loader@0.9.0 -E
+$ npm i --save-dev admin-lte@2.3.6 font-awesome@4.7.0 ionicons@3.0.0 -E
+$ npm i --save-dev react@15.4.2 react-dom@15.4.2 react-router@3.0.2 redux@3.6.0 react-redux@4.4.6 redux-form@6.4.1 redux-multi@0.1.12 redux-promise@0.5.3 redux-thunk@2.1.0 react-redux-toastr@4.4.2 axios@0.15.3 lodash@4.17.4 -E
+```
 
 ## Links
 * NodeRestful[https://github.com/baugarten/node-restful]
