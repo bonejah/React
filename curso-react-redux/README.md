@@ -15,6 +15,9 @@
 * Comando para instalar o bootstrap: npm i --save-dev bootstrap@3.3.7 font-awesome@4.7.0
 * Comando para instalar o react-redux: npm i --save-dev react-redux@5.0.2 redux@3.6.0
 * Comando para instalar o redux-promise: npm i --save-dev redux-promise@0.5.3
+* Comando para instalar o redux-multi: npm i --save-dev redux-multi@0.1.12
+* Comando para instalar o redux-thunk: npm i --save-dev redux-thunk@2.2.0
+
 
 * NodeRestful[https://github.com/baugarten/node-restful]
 
