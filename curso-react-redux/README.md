@@ -19,6 +19,8 @@
 * Comando para instalar o redux-thunk: npm i --save-dev redux-thunk@2.2.0
 
 
+## Links
 * NodeRestful[https://github.com/baugarten/node-restful]
 
-* Instalar Redux DevTools
+## Plus
+* Instalar Redux DevTools (ótima ferramenta para debug no Chrome)
