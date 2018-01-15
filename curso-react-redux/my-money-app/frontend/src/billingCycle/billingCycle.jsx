@@ -11,7 +11,7 @@ import TabHeader from '../common/tab/tabHeader'
 import TabContent from '../common/tab/tabContent'
 import tabContent from '../common/tab/tabContent';
 import { selectTab, showTabs } from '../common/tab/tabAction'
-import { create } from './billingCycleAction'
+import { create } from './billingCycleActions'
 import List from './billingCycleList'
 import Form from './billingCycleForm'
 
