@@ -23,7 +23,8 @@ export function create(values){
         dispatch([
           resetForm('billingCycleForm'),
           getList(),
-          selectTab('tabList')
+          selectTab('tabList'),
+          showTabs('tabList', 'tabCreate')
         ])
       })
       .catch(e => {
