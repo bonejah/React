@@ -19,6 +19,9 @@ export function create(values){
     .then(resp => {
       toastr.success('Sucesso', 'Operação realizada com sucesso')
     })
+    .catch(e => {
+      e.response.data.errors.forEach(error => toastr.error('Erro', error))
+    })
   return {
     type: 'TEMP'
   }
