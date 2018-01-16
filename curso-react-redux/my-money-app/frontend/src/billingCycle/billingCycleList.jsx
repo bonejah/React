@@ -6,11 +6,14 @@ import { getList, showUpdate, showDelete } from './billingCycleActions'
 class BillingCycleList extends Component {
 
   componentWillMount() {
-    this.props.getList()
+    this.props.getList()  
   }
 
   renderRows() {
     const list = this.props.list || []
+
+    console.log(list)
+
     return list.map(bc => (
       <tr key={bc._id}>
         <td>{bc.name}</td>
