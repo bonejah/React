@@ -76,5 +76,5 @@ https://github.com/cod3rcursos/deploy-heroku-frontend
                               {$and:[{month: 1}, {year:2017}]},
                               {$set:{credits:[{name:'Salario', value: 5000}]}}
                               )                      
-                              
-                                 
+* Comando para contar os registros: db.billingCycles.count()
+* Comando para deletar os registros: db.billingCycles.remove({month:2})                             
