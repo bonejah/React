@@ -47,3 +47,11 @@ $ npm i --save-dev react@15.4.2 react-dom@15.4.2 react-router@3.0.2 redux@3.6.0 
 
 ## Plus
 * Instalar Redux DevTools (ótima ferramenta para debug no Chrome)
+
+## Deploy Heroku 
+https://github.com/cod3rcursos/deploy-heroku-backend
+https://github.com/cod3rcursos/deploy-heroku-frontend
+
+## Mongo
+* Comando para subir o servidor: mongod
+* Comando para entrar no console do mongo: mongo
