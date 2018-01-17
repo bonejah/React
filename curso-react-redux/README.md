@@ -78,3 +78,4 @@ https://github.com/cod3rcursos/deploy-heroku-frontend
                               )                      
 * Comando para contar os registros: db.billingCycles.count()
 * Comando para deletar os registros: db.billingCycles.remove({month:2})                             
+* Comando para dropar o db: db.dropDatabase()
