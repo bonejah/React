@@ -61,4 +61,9 @@ https://github.com/cod3rcursos/deploy-heroku-frontend
 * Comando para criar uma colecao: db.creeateCollection('billingCycles')
 * Comando para ver as colecoes: show collections
 * Comando para dropar uma collection: db.billingCycles.drop()
-* 
+* Comando para inserir no db: db.myCollection.insert({name: 'Teste1', year: 2018})
+* Comando para inserir/atualizar no db: db.myCollection.save({name: 'Teste1', year: 2018})
+* Comando para consultar no db: db.myCollection.find() ou db.myCollection.find().pretty()
+* Comando para selecionar o primeiro registro: db.myCollection.findOne()
+* Comando para selecionar o registro contendo name: 'Teste1': db.myCollection.findOne({name: 'Teste1'})
+* Comando para selecionar o registro a partir de X e limitando: b.myCollection.find({name: 'Teste1'}).skip(1).limit(1)
