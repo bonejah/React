@@ -67,3 +67,14 @@ https://github.com/cod3rcursos/deploy-heroku-frontend
 * Comando para selecionar o primeiro registro: db.myCollection.findOne()
 * Comando para selecionar o registro contendo name: 'Teste1': db.myCollection.findOne({name: 'Teste1'})
 * Comando para selecionar o registro a partir de X e limitando: b.myCollection.find({name: 'Teste1'}).skip(1).limit(1)
+* Comando para agregacao:   db.billingCycle.aggregate({
+                              $project: { credit: { $sum: "$credits.value" }, debit: { $sum: "$debits.value" }}
+                            }, {
+                              $group: { _id: null, credit: { $sum: "$credit" }, debit: { $sum: "$debit" }}
+                            }
+* Comando para atualizar:    db.billingCycle.update(
+                              {$and:[{month: 1}, {year:2017}]},
+                              {$set:{credits:[{name:'Salario', value: 5000}]}}
+                              )                      
+                              
+                                 
