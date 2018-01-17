@@ -55,3 +55,10 @@ https://github.com/cod3rcursos/deploy-heroku-frontend
 ## Mongo
 * Comando para subir o servidor: mongod
 * Comando para entrar no console do mongo: mongo
+* Comando para ver as bases de  dados: show dbs
+* Comando para entrar em um determinado banco de dados: use nome_do_banco
+* Comando para ver o nome do db: db
+* Comando para criar uma colecao: db.creeateCollection('billingCycles')
+* Comando para ver as colecoes: show collections
+* Comando para dropar uma collection: db.billingCycles.drop()
+* 
