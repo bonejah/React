@@ -47,3 +47,35 @@ $ npm i --save-dev react@15.4.2 react-dom@15.4.2 react-router@3.0.2 redux@3.6.0 
 
 ## Plus
 * Instalar Redux DevTools (ótima ferramenta para debug no Chrome)
+
+## Deploy Heroku 
+https://github.com/cod3rcursos/deploy-heroku-backend
+https://github.com/cod3rcursos/deploy-heroku-frontend
+
+## Mongo
+* Comando para subir o servidor: mongod
+* Comando para entrar no console do mongo: mongo
+* Comando para ver as bases de  dados: show dbs
+* Comando para entrar em um determinado banco de dados: use nome_do_banco
+* Comando para ver o nome do db: db
+* Comando para criar uma colecao: db.creeateCollection('billingCycles')
+* Comando para ver as colecoes: show collections
+* Comando para dropar uma collection: db.billingCycles.drop()
+* Comando para inserir no db: db.myCollection.insert({name: 'Teste1', year: 2018})
+* Comando para inserir/atualizar no db: db.myCollection.save({name: 'Teste1', year: 2018})
+* Comando para consultar no db: db.myCollection.find() ou db.myCollection.find().pretty()
+* Comando para selecionar o primeiro registro: db.myCollection.findOne()
+* Comando para selecionar o registro contendo name: 'Teste1': db.myCollection.findOne({name: 'Teste1'})
+* Comando para selecionar o registro a partir de X e limitando: b.myCollection.find({name: 'Teste1'}).skip(1).limit(1)
+* Comando para agregacao:   db.billingCycle.aggregate({
+                              $project: { credit: { $sum: "$credits.value" }, debit: { $sum: "$debits.value" }}
+                            }, {
+                              $group: { _id: null, credit: { $sum: "$credit" }, debit: { $sum: "$debit" }}
+                            }
+* Comando para atualizar:    db.billingCycle.update(
+                              {$and:[{month: 1}, {year:2017}]},
+                              {$set:{credits:[{name:'Salario', value: 5000}]}}
+                              )                      
+* Comando para contar os registros: db.billingCycles.count()
+* Comando para deletar os registros: db.billingCycles.remove({month:2})                             
+* Comando para dropar o db: db.dropDatabase()
