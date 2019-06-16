@@ -1,25 +1,21 @@
 # Curso React-Redux Udemy
 
 * Comando para criar um projeto com base no npm: npm init -y
-* Comando para gerar o bundje.js: ./node_modules/.bin/webpack
+* Comando para gerar o bundle.js: ./node_modules/.bin/webpack
 * Comando para rodar o servidor: npm run dev
 * Comando para iniciar o mongodb: mongod
 
 # Dependências do projeto todo-app (BACKEND/FRONTEND)
 ```
 npm i --save-dev webpack@1.14.0 webpack-dev-server@1.16.2
-
 npm i --save-dev babel-core@6.22.1 babel-loader@6.2.10 babel-plugin-react-html-attrs@2.0.0 babel-plugin-transform-object-rest-spread@6.22.0 babel-preset-react@6.22.0 babel-preset-es2015@6.22.0 
 
 npm i --save-dev react@15.4.2 react-dom@15.4.2 react-router@3.0.2 axios@0.15.3
 npm i --save-dev extract-text-webpack-plugin@1.0.1 style-loader@0.13.1 css-loader@0.26.1 file-loader@0.9.0
-npm i --save-dev body-parse@1.15.2
+npm i --save-dev body-parser@1.15.2
 npm i pm2 -g
 npm i --save-dev bootstrap@3.3.7 font-awesome@4.7.0
-npm i --save-dev react-redux@5.0.2 redux@3.6.0
-npm i --save-dev redux-promise@0.5.3
-npm i --save-dev redux-multi@0.1.12
-npm i --save-dev redux-thunk@2.2.0
+npm i --save-dev react-redux@5.0.2 redux@3.6.0 redux-promise@0.5.3 redux-multi@0.1.12 redux-thunk@2.2.0
 ```
 
 # Dependências do projeto my-money-app (BACKEND)
@@ -58,7 +54,7 @@ https://github.com/cod3rcursos/deploy-heroku-frontend
 * Comando para ver as bases de  dados: show dbs
 * Comando para entrar em um determinado banco de dados: use nome_do_banco
 * Comando para ver o nome do db: db
-* Comando para criar uma colecao: db.creeateCollection('billingCycles')
+* Comando para criar uma colecao: db.creeateCollection('billingCycles')shoe
 * Comando para ver as colecoes: show collections
 * Comando para dropar uma collection: db.billingCycles.drop()
 * Comando para inserir no db: db.myCollection.insert({name: 'Teste1', year: 2018})
@@ -79,3 +75,4 @@ https://github.com/cod3rcursos/deploy-heroku-frontend
 * Comando para contar os registros: db.billingCycles.count()
 * Comando para deletar os registros: db.billingCycles.remove({month:2})                             
 * Comando para dropar o db: db.dropDatabase()
+* Comando para parar o mongo caso haja problema: ps wuax | grep mongo, depois execute um sudo kill <your_process_here>

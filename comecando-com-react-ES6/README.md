@@ -15,3 +15,4 @@ Execute os comandos abaixo:
 - npm install webpack -g
 Comando para gerar o bundle.js: webpack ou webpack -w (fica escutando as alteracoes)
 
+
