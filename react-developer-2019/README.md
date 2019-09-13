@@ -27,4 +27,8 @@ npx create-react-app my-app
 * Docs
 ```
 https://reactjs.org/docs/react-component.html
+https://jsonplaceholder.typicode.com/users
+https://www.w3schools.com/whatis/whatis_json.asp
+https://css-tricks.com/snippets/css/complete-guide-grid/
+https://gridbyexample.com/what/
 ```
