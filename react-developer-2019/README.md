@@ -24,11 +24,15 @@ https://create-react-app.dev/docs/getting-started
 npx create-react-app my-app
 ```
 
-* Docs
+* Links
 ```
 https://reactjs.org/docs/react-component.html
+https://reactjs.org/docs/events.html
+
 https://jsonplaceholder.typicode.com/users
 https://www.w3schools.com/whatis/whatis_json.asp
 https://css-tricks.com/snippets/css/complete-guide-grid/
 https://gridbyexample.com/what/
+https://robohash.org/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Object_destructuring
 ```
