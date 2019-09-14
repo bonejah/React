@@ -28,6 +28,8 @@ npx create-react-app my-app
 ```
 https://reactjs.org/docs/react-component.html
 https://reactjs.org/docs/events.html
+https://unpkg.com/react@16.8.6/umd/react.development.js
+https://unpkg.com/react-dom@16.8.6/umd/react-dom.development.js
 
 https://jsonplaceholder.typicode.com/users
 https://www.w3schools.com/whatis/whatis_json.asp
