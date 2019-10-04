@@ -20,7 +20,6 @@ https://yarnpkg.com/lang/en/docs/install/#mac-stable
 * Create react-app
 ```
 https://create-react-app.dev/docs/getting-started
-
 npx create-react-app my-app
 ```
 
@@ -30,6 +29,9 @@ https://reactjs.org/docs/react-component.html
 https://reactjs.org/docs/events.html
 https://unpkg.com/react@16.8.6/umd/react.development.js
 https://unpkg.com/react-dom@16.8.6/umd/react-dom.development.js
+https://reacttraining.com/react-router/web/guides/quick-start
+https://www.npmjs.com/package/react-router-dom
+
 
 https://jsonplaceholder.typicode.com/users
 https://www.w3schools.com/whatis/whatis_json.asp
