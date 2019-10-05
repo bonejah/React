@@ -31,6 +31,7 @@ https://unpkg.com/react@16.8.6/umd/react.development.js
 https://unpkg.com/react-dom@16.8.6/umd/react-dom.development.js
 https://reacttraining.com/react-router/web/guides/quick-start
 https://www.npmjs.com/package/react-router-dom
+https://create-react-app.dev/docs/adding-images-fonts-and-files
 
 
 https://jsonplaceholder.typicode.com/users
