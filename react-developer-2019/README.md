@@ -32,6 +32,9 @@ https://unpkg.com/react-dom@16.8.6/umd/react-dom.development.js
 https://reacttraining.com/react-router/web/guides/quick-start
 https://www.npmjs.com/package/react-router-dom
 https://create-react-app.dev/docs/adding-images-fonts-and-files
+https://firebase.google.com/
+https://firebase.google.com/docs/reference/js/
+https://www.npmjs.com/package/firebase
 
 
 https://jsonplaceholder.typicode.com/users
