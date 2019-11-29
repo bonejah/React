@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 import { connect } from "react-redux";
-import { createStructuredSelector } from 'reselect';
+import { createStructuredSelector } from "reselect";
 
 import HomePage from "./pages/homepage/homepage.component";
 import ShopPage from "./pages/shop/shop.component";
@@ -11,16 +11,21 @@ import CheckoutPage from "./pages/checkout/checkout.component";
 import Header from "./components/header/header.component";
 
 import { setCurrentUser } from "./redux/user/user.actions";
-import { auth, createUserProfileDocument } from "./firebase/firebase.util";
+import {
+  auth,
+  createUserProfileDocument,
+  addCollectionsAndDocuments
+} from "./firebase/firebase.util";
 import { selectCurrentUser } from "./redux/user/user.selectors";
- 
+import { selectCollectionsForPreview } from "./redux/shop/shop.selectors";
+
 import "./App.css";
 
 class App extends React.Component {
   unsubscribeFromAuth = null;
 
   componentDidMount() {
-    const { setCurrentUser } = this.props;
+    const { setCurrentUser, collectionsArray } = this.props;
 
     this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
       if (userAuth) {
@@ -34,6 +39,10 @@ class App extends React.Component {
       }
 
       setCurrentUser(userAuth);
+      addCollectionsAndDocuments(
+        "collections",
+        collectionsArray.map(({ title, items }) => ({ title, items }))
+      );
     });
   }
 
@@ -53,7 +62,7 @@ class App extends React.Component {
             exact
             path="/signin"
             render={() =>
-              this.props.currentUser ? (<Redirect to="/" />) : (<SignInAndSignUp />)
+              this.props.currentUser ? <Redirect to="/" /> : <SignInAndSignUp />
             }
           />
         </Switch>
@@ -63,7 +72,8 @@ class App extends React.Component {
 }
 
 const mapStateToProps = createStructuredSelector({
-  currentUser: selectCurrentUser
+  currentUser: selectCurrentUser,
+  collectionsArray: selectCollectionsForPreview
 });
 
 const mapDispatchToProps = dispatch => ({
