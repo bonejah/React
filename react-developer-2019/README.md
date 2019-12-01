@@ -43,4 +43,5 @@ https://css-tricks.com/snippets/css/complete-guide-grid/
 https://gridbyexample.com/what/
 https://robohash.org/
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Object_destructuring
+https://firebase.google.com/docs/firestore/use-rest-api#making_rest_calls
 ```
